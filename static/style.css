@@ -1,0 +1,121 @@
+.text{
+
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    background: linear-gradient(to right, #ff1900 50% , #007fd3 50%);
+    -webkit-background-clip: text; 
+    background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    margin: 10pt;
+
+
+}
+
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 50pt;
+}
+
+.carousel-item{
+    transition: transform 1.5s ease-in-out;
+    position: relative;
+    width: 100%; /* Ensures the carousel takes the full width of the parent */
+    overflow: hidden; /* Prevents overflow of images */
+}
+
+
+#big_3{
+    text-align: center;
+}
+
+
+.d-block.w-100 {  
+    height: 300pt;  
+    object-fit:scale-down; 
+}
+
+
+body{
+    display: grid;
+    height: 100vh; 
+    background: linear-gradient(to right, #0808f0 , #e80d0d);
+}
+
+
+
+.description{
+
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, #000000 50%,#ffffff 50%);
+    -webkit-background-clip: text; 
+    background-clip: text ;
+    -webkit-text-fill-color: transparent;     
+}
+
+
+@media (max-width: 1201px) {
+    .description {
+        font-size: 1rem;
+        margin: 10px 10px 5pt;
+        padding: 10px 10px;
+    }
+}
+
+@media (min-width: 601px){
+    .description {
+        font-size: 1.5rem;
+        margin: 30px 30pt 150pt;
+        padding: 30px 30pt; 
+    }
+}
+
+.container{
+    margin-bottom: 20pt;
+    padding-bottom: 20pt;
+}
+
+
+.card {
+    width: 200pt;
+    background-color: transparent;
+    border: 0cm;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-body {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 0.5rem;
+    
+}
+
+.btn {
+    margin-top: 0.5rem; 
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: auto; 
+    object-fit: scale-down; 
+    max-height: 300px; 
+    border-radius: 100px;
+    margin-right: 30pt;
+}
+
+.carousel-inner img {
+    max-height: 300px;
+    margin-left: 20pt;
+
+    object-fit: scale-down; 
+}
